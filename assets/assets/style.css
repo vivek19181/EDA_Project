@@ -1,0 +1,82 @@
+/* Background */
+.stApp{
+    background: radial-gradient(circle at top,#111827,#020617 70%);
+    color:white;
+}
+
+/* Hide Streamlit branding */
+#MainMenu{visibility:hidden;}
+footer{visibility:hidden;}
+header{visibility:hidden;}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#111827;
+    border-right:1px solid rgba(255,255,255,.08);
+}
+
+/* Hero Title */
+.hero{
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    border-radius:22px;
+    padding:35px;
+    color:white;
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+    margin-bottom:25px;
+}
+
+.hero h1{
+    margin:0;
+    font-size:42px;
+}
+
+.hero p{
+    margin-top:8px;
+    color:#dbeafe;
+}
+
+/* Glass Cards */
+.card{
+    background:rgba(255,255,255,.06);
+    backdrop-filter:blur(16px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:22px;
+    text-align:center;
+    transition:.3s;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#3b82f6;
+}
+
+.card h3{
+    color:#94a3b8;
+    margin-bottom:10px;
+}
+
+.card h1{
+    color:white;
+    margin:0;
+}
+
+/* Section Box */
+.section-box{
+    background:#0f172a;
+    border-radius:20px;
+    padding:20px;
+    border:1px solid rgba(255,255,255,.06);
+    margin-top:18px;
+}
+
+/* Buttons */
+.stButton>button{
+    background:linear-gradient(90deg,#2563eb,#7c3aed);
+    color:white;
+    border:none;
+    border-radius:12px;
+    padding:10px 18px;
+    font-weight:600;
+}
