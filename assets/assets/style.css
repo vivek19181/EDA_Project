@@ -11,7 +11,7 @@ header{visibility:hidden;}
 
 /* Sidebar */
 section[data-testid="stSidebar"]{
-    background:#111827;
+    background:#183f95;
     border-right:1px solid rgba(255,255,255,.08);
 }
 
